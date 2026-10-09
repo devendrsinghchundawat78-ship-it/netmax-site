@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://netmax-app.vercel.app/sitemap.xml
