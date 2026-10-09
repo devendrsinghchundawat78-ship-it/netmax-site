@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NETMAX - Discover movies, series &amp; anime. Free Android app</title>
+<meta name="description" content="NETMAX helps you discover movies, series and anime, search any title, and keep a watchlist of what to watch next - all in one clean, dark Android app.">
+<meta name="keywords" content="NETMAX, NETMAX app, movie discovery app, series watchlist app, anime discovery app, Android watchlist app, movie tracker Android, free Android app">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="index.html">
+<link rel="icon" href="favicon.png" type="image/png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NETMAX">
+<meta property="og:title" content="NETMAX - Discover movies, series &amp; anime">
+<meta property="og:description" content="Free Android app to discover movies, series and anime and keep a watchlist. One-tap APK download.">
+<meta property="og:url" content="https://netmax-app.vercel.app/">
+<meta property="og:image" content="https://netmax-app.vercel.app/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NETMAX - Discover movies, series &amp; anime">
+<meta name="twitter:description" content="Free Android app to discover movies, series and anime and keep a watchlist.">
+<meta name="twitter:image" content="https://netmax-app.vercel.app/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","name":"NETMAX","url":"https://netmax-app.vercel.app/"},
+{"@type":"SoftwareApplication","name":"NETMAX","operatingSystem":"Android","applicationCategory":"EntertainmentApplication","description":"Never run out of what to watch. NETMAX is a free Android app that puts trending movies, series and anime in one place. Browse what is popular, search any title, check artwork and ratings, and save your picks to a personal watchlist so you always know what is next. The interface is dark, fast and built for phones, so finding something good takes seconds, not scrolling. NETMAX is a discovery and watchlist app: it helps you decide what to watch and keep track of it. It does not host or sell media. Free to download.","softwareVersion":"3.1.2","downloadUrl":"https://github.com/devendrsinghchundawat78-ship-it/netmax-v3/releases/download/v3.1.2-32/NetMax-v3.1.2-release.apk","fileSize":"106MB","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://netmax-app.vercel.app/","image":"https://netmax-app.vercel.app/logo.png","author":{"@type":"Person","name":"Devraj Singh Chundawat"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is NETMAX free?","acceptedAnswer":{"@type":"Answer","text":"Yes. NETMAX is free to download and use."}},
+{"@type":"Question","name":"What does NETMAX do?","acceptedAnswer":{"@type":"Answer","text":"NETMAX helps you discover movies, series and anime, search for titles, and keep a watchlist of what you want to watch next."}},
+{"@type":"Question","name":"How do I install the NETMAX APK?","acceptedAnswer":{"@type":"Answer","text":"Tap Download APK, open the downloaded file, and allow installs from your browser or file manager if Android asks. Then open NETMAX."}},
+{"@type":"Question","name":"Which devices does NETMAX support?","acceptedAnswer":{"@type":"Answer","text":"NETMAX is built for Android phones."}}]}]}
+</script>
+<style>
+:root{--bg:#000;--fg:#f4f2ef;--mut:#9a9893;--card:#0e0e0e;--line:#222;--btn:#f4f2ef;--btnfg:#111;--red:#e50914;--glow:rgba(229,9,20,.18)}
+[data-theme=light]{--bg:#fff;--fg:#1a1a1a;--mut:#626262;--card:#f5f4f2;--line:#e6e4e0;--btn:#1a1a1a;--btnfg:#fff;--glow:rgba(229,9,20,.10)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;transition:background .5s,color .5s}
+a{color:inherit;text-decoration:none}
+.serif{font-family:"EB Garamond",Garamond,Georgia,serif;font-weight:500;letter-spacing:-.035em;line-height:.95}
+header{position:fixed;inset:0 0 auto 0;z-index:50;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(16px,4vw,40px);backdrop-filter:blur(18px);background:color-mix(in srgb,var(--bg) 70%,transparent);border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.06em}
+.logo svg{width:32px;height:32px}
+nav{display:flex;gap:28px;color:var(--mut);font-size:15px}
+nav a:hover{color:var(--fg)}
+.right{display:flex;gap:10px;align-items:center}
+.pill{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--btn);color:var(--btnfg);border-radius:999px;padding:14px 28px;font-weight:600;font-size:16px;border:0;cursor:pointer;transition:transform .25s,box-shadow .25s}
+.pill:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 12px 40px var(--glow),0 0 0 6px var(--glow)}
+.pill.sm{padding:10px 20px;font-size:14px}
+.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.ghost:hover{box-shadow:none;border-color:var(--mut)}
+.tg{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer;font-size:16px}
+.hero{min-height:100svh;padding:130px 20px 60px;text-align:center;position:relative;display:flex;flex-direction:column;align-items:center}
+.orb{position:absolute;width:min(900px,120vw);aspect-ratio:1;left:50%;top:-10%;transform:translateX(-50%);background:radial-gradient(circle,var(--glow),transparent 62%);filter:blur(30px);animation:breathe 8s ease-in-out infinite;pointer-events:none}
+@keyframes breathe{50%{transform:translateX(-50%) scale(1.12);opacity:.7}}
+.laurel{display:flex;align-items:center;gap:10px;color:var(--mut);font-family:"EB Garamond",serif;font-size:19px}
+.stars{display:flex;gap:6px}
+.stars svg{width:24px;height:24px;fill:var(--fg);animation:pop .6s both}
+.stars svg:nth-child(2){animation-delay:.1s}.stars svg:nth-child(3){animation-delay:.2s}.stars svg:nth-child(4){animation-delay:.3s}.stars svg:nth-child(5){animation-delay:.4s}
+@keyframes pop{from{transform:scale(0) rotate(-40deg);opacity:0}}
+h1{font-size:clamp(46px,9.2vw,112px);margin:26px 0 22px;max-width:1000px}
+h1 em{font-style:italic;color:var(--red)}
+.sub{color:var(--mut);font-size:clamp(16px,2vw,20px);max-width:560px;line-height:1.5}
+.cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:34px 0 12px}
+.pill.big{padding:19px 38px;font-size:18px}
+.small{font-size:13px;color:var(--mut)}
+.phone{margin-top:56px;width:min(300px,76vw);aspect-ratio:9/18.5;border-radius:44px;border:8px solid #1b1b1b;background:#050505;position:relative;overflow:hidden;box-shadow:0 60px 120px -30px var(--glow),0 0 0 1px #333;animation:float 6s ease-in-out infinite}
+[data-theme=light] .phone{box-shadow:0 50px 90px -30px rgba(0,0,0,.35),0 0 0 1px #333}
+@keyframes float{50%{transform:translateY(-14px) rotate(-.6deg)}}
+.phone .notch{position:absolute;top:10px;left:50%;width:84px;height:22px;background:#000;border-radius:20px;transform:translateX(-50%);z-index:3}
+.phone .shot{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;animation:shotfade 18s infinite}.phone .shot:first-of-type{opacity:1}@keyframes shotfade{0%{opacity:0}3%{opacity:1}16%{opacity:1}19%{opacity:0}100%{opacity:0}}
+.ui{padding:46px 14px 14px;display:flex;flex-direction:column;gap:12px;height:100%;color:#f4f2ef}
+.ui .bar{height:34px;border-radius:17px;background:#161616;display:flex;align-items:center;padding:0 14px;font-size:11px;color:#777;text-align:left}
+.ui .row{display:flex;gap:8px;overflow:hidden}
+.ui .chip{font-size:10px;padding:6px 12px;border-radius:99px;background:#161616;white-space:nowrap}
+.ui .chip.on{background:var(--red)}
+.ui .lbl{font-size:11px;font-weight:600;text-align:left;letter-spacing:.04em}
+.ui .tiles{display:flex;gap:8px;animation:slide 9s ease-in-out infinite alternate}
+@keyframes slide{to{transform:translateX(-34%)}}
+.tile{flex:0 0 38%;aspect-ratio:2/3;border-radius:12px}
+.t1{background:linear-gradient(160deg,#e50914,#240305)}.t2{background:linear-gradient(160deg,#3a3a3a,#050505)}.t3{background:linear-gradient(160deg,#7a1f2b,#0a0a0a)}.t4{background:linear-gradient(160deg,#555,#111)}.t5{background:linear-gradient(160deg,#b30710,#1a0204)}
+.ui .tab{margin-top:auto;display:flex;justify-content:space-around;padding:10px;border-radius:22px;background:#111}
+.ui .tab i{width:18px;height:18px;border-radius:6px;background:#333}.ui .tab i:first-child{background:var(--red)}
+section{padding:clamp(80px,12vw,150px) clamp(18px,5vw,60px);max-width:1200px;margin:auto}
+h2{font-size:clamp(40px,6.4vw,72px);text-align:center;margin-bottom:18px}
+.lead{text-align:center;color:var(--mut);max-width:620px;margin:0 auto 56px;font-size:18px;line-height:1.55}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:30px;transition:transform .4s,border-color .4s}
+.card:hover{transform:translateY(-6px);border-color:var(--red)}
+.ic{width:48px;height:48px;border-radius:16px;background:var(--btn);color:var(--btnfg);display:grid;place-items:center;margin-bottom:22px}
+.ic svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:22px;margin-bottom:10px}
+.card p{color:var(--mut);line-height:1.55}
+.steps{counter-reset:s}
+.steps .card::before{counter-increment:s;content:counter(s);font-family:"EB Garamond",serif;font-size:72px;line-height:1;color:var(--red);display:block;margin-bottom:10px}
+.about p{font-size:clamp(20px,2.6vw,30px);line-height:1.4;text-align:center;color:var(--mut);max-width:880px;margin:0 auto}
+.about b{color:var(--fg);font-weight:500}
+details{border-bottom:1px solid var(--line);padding:22px 4px;max-width:760px;margin:auto;cursor:pointer}
+summary{font-size:19px;font-weight:500;list-style:none;display:flex;justify-content:space-between}
+summary::after{content:"+";font-size:24px;transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--mut);margin-top:12px;line-height:1.6}
+.final{text-align:center}
+footer{border-top:1px solid var(--line);padding:40px clamp(18px,5vw,60px);display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;color:var(--mut);font-size:13px;line-height:1.6}
+footer a{text-decoration:underline}
+.rv{opacity:0;transform:translateY(36px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(max-width:760px){nav{display:none}.pill.sm{padding:9px 14px;font-size:13px}header{gap:8px}.logo{font-size:15px}}html,body{max-width:100%;overflow-x:clip}.hero{overflow:clip}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header>
+<a class="logo" href="/#top" aria-label="NETMAX home"><img src="logo.png" alt="" width="32" height="32" style="border-radius:9px">NETMAX</a>
+<nav><a href="/#features">Features</a><a href="/#how">How it works</a><a href="/#faq">FAQ</a></nav>
+<div class="right"><button class="tg" id="tg" aria-label="Toggle light or dark theme">◐</button><a class="pill sm" href="https://github.com/devendrsinghchundawat78-ship-it/netmax-v3/releases/download/v3.1.2-32/NetMax-v3.1.2-release.apk" download>Download APK</a></div>
+</header>
+<main id="top">
+<div class="hero">
+<div class="orb"></div>
+<div class="laurel"><span>Free for Android</span><div class="stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.3 6.8.5-5.2 4.4 1.6 6.6L12 16l-5.8 3.8 1.6-6.6L2.6 8.8l6.8-.5z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.3 6.8.5-5.2 4.4 1.6 6.6L12 16l-5.8 3.8 1.6-6.6L2.6 8.8l6.8-.5z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.3 6.8.5-5.2 4.4 1.6 6.6L12 16l-5.8 3.8 1.6-6.6L2.6 8.8l6.8-.5z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.3 6.8.5-5.2 4.4 1.6 6.6L12 16l-5.8 3.8 1.6-6.6L2.6 8.8l6.8-.5z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.3 6.8.5-5.2 4.4 1.6 6.6L12 16l-5.8 3.8 1.6-6.6L2.6 8.8l6.8-.5z"/></svg></div><span>Discover. Search. Save.</span></div>
+<h1 class="serif">Find what to watch.<br><em>Keep</em> what you love.</h1>
+<p class="sub">NETMAX helps you discover movies, series and anime, search any title, and keep a watchlist of what to watch next - all in one clean, dark Android app.</p>
+<div class="cta"><a class="pill big" id="dl" href="https://github.com/devendrsinghchundawat78-ship-it/netmax-v3/releases/download/v3.1.2-32/NetMax-v3.1.2-release.apk" download>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>Download APK</a><a class="pill big ghost" href="/#features">See features</a></div>
+<p class="small">Version 3.1.2 &middot; Android &middot; about 113 MB &middot; one-tap direct download</p>
+<div class="phone"><div class="notch"></div><img class="shot" src="shot-home.jpg" alt="NETMAX app screenshot" style="animation-delay:0s" loading="eager"><img class="shot" src="shot-odyssey.jpg" alt="NETMAX app screenshot" style="animation-delay:3s" loading="lazy"><img class="shot" src="shot-discover.jpg" alt="NETMAX app screenshot" style="animation-delay:6s" loading="lazy"><img class="shot" src="shot-cid.jpg" alt="NETMAX app screenshot" style="animation-delay:9s" loading="lazy"><img class="shot" src="shot-menu.jpg" alt="NETMAX app screenshot" style="animation-delay:12s" loading="lazy"><img class="shot" src="shot-settings.jpg" alt="NETMAX app screenshot" style="animation-delay:15s" loading="lazy"></div>
+</div>
+
+<section class="about rv"><p><b>Never run out of what to watch.</b> NETMAX is a free Android app that puts trending movies, series and anime in one place. Browse what is popular, search any title, check artwork and ratings, and save your picks to a personal watchlist so you always know what is next. The interface is dark, fast and built for phones, so finding something good takes seconds, not scrolling. NETMAX is a discovery and watchlist app: it helps you decide what to watch and keep track of it. It does not host or sell media. Free to download.</p></section>
+
+<section id="features">
+<h2 class="serif rv">What NETMAX can do</h2>
+<p class="lead rv">Built for people who love movies, series and anime and want a simple way to keep track.</p>
+<div class="grid">
+<div class="card rv"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div><h3>Discover</h3><p>Browse trending and popular movies, series and anime in one place. New favorites are always a scroll away.</p></div>
+<div class="card rv"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div><h3>Fast search</h3><p>Type a title and get it right away. Look up details before you decide what to watch.</p></div>
+<div class="card rv"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg></div><h3>Watchlist</h3><p>Save anything with one tap. Your list stays tidy and ready for movie night.</p></div>
+<div class="card rv"><div class="ic"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg></div><h3>Dark and easy on the eyes</h3><p>A dark, clean interface that feels smooth on phones and looks sharp on AMOLED screens.</p></div>
+<div class="card rv"><div class="ic"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div><h3>Light and quick</h3><p>No clutter, no maze of menus. Open the app, find a title, save it, done.</p></div>
+<div class="card rv"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg></div><h3>Free</h3><p>Download it, use it. No payment needed to discover titles and keep your watchlist.</p></div>
+</div></section>
+
+<section id="how"><h2 class="serif rv">Up and running in a minute</h2><p class="lead rv">Three steps from download to your first watchlist.</p>
+<div class="grid steps">
+<div class="card rv"><h3>Download</h3><p>Tap Download APK. The file saves straight to your phone.</p></div>
+<div class="card rv"><h3>Install</h3><p>Open the file. If Android asks, allow installs from your browser or file manager for this one app.</p></div>
+<div class="card rv"><h3>Discover</h3><p>Open NETMAX, search or browse, and save what looks good to your watchlist.</p></div>
+</div></section>
+
+<section id="faq"><h2 class="serif rv">Questions</h2><p class="lead rv"></p>
+<details class="rv"><summary>Is NETMAX free?</summary><p>Yes. NETMAX is free to download and use.</p></details>
+<details class="rv"><summary>What does NETMAX do?</summary><p>It helps you discover movies, series and anime, search for titles, and keep a watchlist of what you want to watch next.</p></details>
+<details class="rv"><summary>How do I install the APK?</summary><p>Tap Download APK, open the downloaded file, and allow installs from your browser or file manager if Android asks. Then open NETMAX.</p></details>
+<details class="rv"><summary>Is it on the Play Store?</summary><p>Not yet. For now NETMAX is shared as a direct APK from its official GitHub release.</p></details>
+<details class="rv"><summary>Which devices does it support?</summary><p>NETMAX is built for Android phones.</p></details>
+</section>
+
+<section class="final"><h2 class="serif rv">Your next watch<br>starts here.</h2>
+<div class="cta rv"><a class="pill big" href="https://github.com/devendrsinghchundawat78-ship-it/netmax-v3/releases/download/v3.1.2-32/NetMax-v3.1.2-release.apk" download>Download NETMAX for Android</a></div>
+<p class="small">Version 3.1.2 &middot; about 113 MB &middot; <a href="https://github.com/devendrsinghchundawat78-ship-it/netmax-v3/releases" style="text-decoration:underline">All releases on GitHub</a></p></section>
+</main>
+<footer><div>&copy; 2026 NETMAX. NETMAX is a discovery and watchlist app and does not host any video content.</div><div><a href="/privacy">Privacy Policy</a> &middot; <a href="/developer">Developer</a></div><div>Open-source attribution: built on <a href="https://github.com/NuvioMedia">Nuvio</a> (GPLv3). Source: <a href="https://github.com/devendrsinghchundawat78-ship-it/netmax-v3">GitHub</a></div></footer>
+<script>
+var r=document.documentElement,s=localStorage.getItem('nm-theme');if(s)r.dataset.theme=s;
+document.getElementById('tg').onclick=function(){var t=r.dataset.theme==='dark'?'light':'dark';r.dataset.theme=t;localStorage.setItem('nm-theme',t)};
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay=(i%3)*90+'ms';io.observe(el)});
+</script>
+</body></html>
